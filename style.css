@@ -1,0 +1,109 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: beige
+}
+header{
+    width: 100%;
+    background-color: burlywood;
+    color: rgb(226, 6, 255);
+    display: flex;
+    opacity: 60%;
+}
+.logo{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    background-color: rgb(94, 202, 202);
+    width: 100px;
+    border: 2px solid rgb(244, 248, 7);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 5px 5px;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(18, 14, 245);
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+    background-color: rgb(12, 234, 241);
+    transition: all ease-in 0.5s;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+    color: rgb(244, 246, 250);
+    background-color: rgb(135, 182, 182);
+    text-align: center;
+
+
+}
+.nam h2{
+    font-size: 80px;
+
+}
+.text p{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    
+}
+
+
+.icon i{
+    font-size: 45px;
+    position: relative;
+    padding: 10px;
+}
+
+.nam h1{
+    font-size: 35px;
+    color: rgb(237, 71, 252);
+}
+.text p{
+    width: 600px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    font-style: italic;
+    color: black;
+}
+.icon i{
+    font-size: 50px;
+    position: relative;
+    padding: 10px;
+}
+.copy{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(199, 209, 142);
+    font-size: 20px;
+    line-height: 50px;
+}
